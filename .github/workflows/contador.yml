@@ -18,7 +18,7 @@ jobs:
           python-version: "3.10"
 
       - name: Rodar script Python
-        run: python atualizar_numero.py
+        run: python scripts/atualizar_numero.py
 
       - name: Commitar e enviar alterações
         run: |

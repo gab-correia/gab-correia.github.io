@@ -1,7 +1,7 @@
 # atualizar_numero.py
 import re
 
-arquivo = "_data/contador.md"
+arquivo = "_includes/contador.md"
 
 with open(arquivo, "r") as f:
     conteudo = f.read()

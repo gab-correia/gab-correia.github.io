@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
+title: "Exchange Rate – Commercial Dollar (Sell) in 2024"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This interactive chart displays the variation in the Brazilian commercial dollar (sell rate) throughout 2024. The data is sourced from the official time series provided by the Central Bank of Brazil and reflects exchange rate volatility in response to macroeconomic and political factors.
+
+<iframe src="/files/grafico_dolar_2024.html" width="100%" height="600" frameborder="0"></iframe>

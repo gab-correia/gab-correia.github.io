@@ -13,7 +13,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 <h2>Contador automático</h2>
 <p>
-  {% include_relative _data/contador.md %}
+  {% include contador.md %}
 </p>
 
 

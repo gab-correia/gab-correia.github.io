@@ -11,19 +11,10 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-<div id="contador" style="margin-top: 1rem; font-size: 1.2rem;"></div>
-
-<script>
-  let i = 1;
-  const div = document.getElementById("contador");
-
-  setInterval(() => {
-    const span = document.createElement("span");
-    span.textContent = i + ", ";
-    div.appendChild(span);
-    i++;
-  }, 10000);
-</script>
+<h2>Contador automático</h2>
+<p>
+  {% include_relative _data/contador.md %}
+</p>
 
 
 A data-driven personal website

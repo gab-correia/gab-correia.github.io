@@ -1,1 +1,1 @@
-Último número: 71
+Último número: 72

@@ -1,6 +1,6 @@
 ---
 title: "Exchange Rate – Commercial Dollar (Sell) in 2024"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 1<br/><a href='/portfolio/portfolio-1' target='_blank'><img src='/images/grafico_dolar.png' width='500' height='300'></a>"
 collection: portfolio
 ---
 

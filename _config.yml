@@ -24,10 +24,9 @@ author:
   # Biographic information
   avatar           : "/images/profile.png"
   name             : "Gabriel Correia da Costa"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Computer Engineering student at Insper, passionate about technology and innovation."
+  location         : "São Paulo, Brazil"
+  employer         : "Insper"
   uri              : # URL
   email            : "gabrielcc3@al.insper.edu.br" 
 
@@ -64,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "gabrielcosta4"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

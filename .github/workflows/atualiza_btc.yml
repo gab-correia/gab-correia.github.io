@@ -1,0 +1,36 @@
+name: Atualizar preço do Bitcoin
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # A cada 30 minutos
+  workflow_dispatch:        # Também permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
+
+    - name: Instalar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Instalar dependências
+      run: |
+        pip install pandas requests plotly
+
+    - name: Rodar scripts de coleta e gráfico
+      run: |
+        python scripts/btc_logger.py
+        python scripts/generate_chart.py
+
+    - name: Commit e push
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add files/precos_btc.csv files/grafico_btc.html
+        git commit -m "Atualização automática do gráfico BTC" || echo "Sem mudanças"
+        git push

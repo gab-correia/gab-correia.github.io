@@ -33,4 +33,5 @@ jobs:
         git config user.email "actions@github.com"
         git add files/precos_btc.csv files/grafico_btc.html
         git commit -m "Atualização automática do gráfico BTC" || echo "Sem mudanças"
+        git pull --rebase origin master
         git push

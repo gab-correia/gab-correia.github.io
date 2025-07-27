@@ -1,1 +1,1 @@
-Último número: 1492
+Último número: 1493

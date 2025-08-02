@@ -1,1 +1,1 @@
-Último número: 1972
+Último número: 1973

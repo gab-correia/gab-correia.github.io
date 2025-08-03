@@ -1,1 +1,1 @@
-Último número: 2005
+Último número: 2006

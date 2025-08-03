@@ -1,1 +1,1 @@
-Último número: 2025
+Último número: 2026

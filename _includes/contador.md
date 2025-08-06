@@ -1,1 +1,1 @@
-Último número: 2247
+Último número: 2248
